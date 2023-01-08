@@ -28,6 +28,13 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "120"
 
+vim.opt.smartindent = true
+
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+
+vim.opt.list = true
+
 vim.g.mapleader = " "
 
 vim.cmd([[
